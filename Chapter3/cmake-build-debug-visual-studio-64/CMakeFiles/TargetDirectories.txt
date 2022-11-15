@@ -1,0 +1,12 @@
+C:/Users/57286/CLionProjects/Chapter3/cmake-build-debug-visual-studio-64/CMakeFiles/01.data_type_c_int.c.dir
+C:/Users/57286/CLionProjects/Chapter3/cmake-build-debug-visual-studio-64/CMakeFiles/02.data_type_c_char.c.dir
+C:/Users/57286/CLionProjects/Chapter3/cmake-build-debug-visual-studio-64/CMakeFiles/03.data_type_c_float.c.dir
+C:/Users/57286/CLionProjects/Chapter3/cmake-build-debug-visual-studio-64/CMakeFiles/04.variable.c.dir
+C:/Users/57286/CLionProjects/Chapter3/cmake-build-debug-visual-studio-64/CMakeFiles/05.constant.c.dir
+C:/Users/57286/CLionProjects/Chapter3/cmake-build-debug-visual-studio-64/CMakeFiles/06.operators.c.dir
+C:/Users/57286/CLionProjects/Chapter3/cmake-build-debug-visual-studio-64/CMakeFiles/07.condition.c.dir
+C:/Users/57286/CLionProjects/Chapter3/cmake-build-debug-visual-studio-64/CMakeFiles/08.loop.c.dir
+C:/Users/57286/CLionProjects/Chapter3/cmake-build-debug-visual-studio-64/CMakeFiles/output.c.dir
+C:/Users/57286/CLionProjects/Chapter3/cmake-build-debug-visual-studio-64/CMakeFiles/practis_datatype.c.dir
+C:/Users/57286/CLionProjects/Chapter3/cmake-build-debug-visual-studio-64/CMakeFiles/edit_cache.dir
+C:/Users/57286/CLionProjects/Chapter3/cmake-build-debug-visual-studio-64/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cmake-build-debug-mingw",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01.data_type_c_int.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01.data_type_c_int.c-Debug-113b1e33924031a5f0df.json",
+					"name" : "01.data_type_c_int.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02.data_type_c_char.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02.data_type_c_char.c-Debug-de30bfb98bb6deec20c2.json",
+					"name" : "02.data_type_c_char.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03.data_type_c_float.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03.data_type_c_float.c-Debug-4b656b8dbf7885698c88.json",
+					"name" : "03.data_type_c_float.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04.variable.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04.variable.c-Debug-b6331d9dcf086a7e8881.json",
+					"name" : "04.variable.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05.constant.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05.constant.c-Debug-56f047f55d37c89a8c41.json",
+					"name" : "05.constant.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06.operators.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06.operators.c-Debug-0130a841ddb9dbe47cdd.json",
+					"name" : "06.operators.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07.condition.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07.condition.c-Debug-35f11ed6353570ec32bc.json",
+					"name" : "07.condition.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "08.loop.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-08.loop.c-Debug-ef23a9228e8fb23c8286.json",
+					"name" : "08.loop.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "output.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-output.c-Debug-b4fbbba4d36c7ffc2cef.json",
+					"name" : "output.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "practis_datatype.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-practis_datatype.c-Debug-af2c4304871c8c8c8119.json",
+					"name" : "practis_datatype.c",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/57286/CLionProjects/Chapter3/cmake-build-debug-mingw",
+		"source" : "C:/Users/57286/CLionProjects/Chapter3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

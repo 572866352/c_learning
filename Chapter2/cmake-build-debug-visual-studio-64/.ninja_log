@@ -1,0 +1,10 @@
+# ninja log v5
+0	28	6887125148571343	CMakeFiles/02.hello_world.c.dir/02.hello_world.c.obj	7ee710409f3a13d1
+1	54	6889956016403159	build.ninja	9e540db2f663961e
+0	3	0	clean	f79cb84a9874db96
+90	197	6887111586170654	03.debug_c.c.exe	a34632fa9b3b7fa7
+100	152	6887125004222546	04.style_c.c.exe	b44a7125a242d99d
+98	210	6887113414929297	ioi.c.exe	fec8cd0f08ff9d96
+0	99	6887125003788897	CMakeFiles/04.style_c.c.dir/04.style_c.c.obj	e822df4a139b4e49
+0	90	6887111585168898	CMakeFiles/03.debug_c.c.dir/03.debug_c.c.obj	4e2a9976366cc6e
+28	75	6887125148937765	02.hello_world.c.exe	efb52c89d5ec57f8

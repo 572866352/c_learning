@@ -1,0 +1,5 @@
+C:/Users/57286/CLionProjects/Chapter2/cmake-build-debug-mingw/CMakeFiles/02.hello_world.c.dir
+C:/Users/57286/CLionProjects/Chapter2/cmake-build-debug-mingw/CMakeFiles/03.debug_c.c.dir
+C:/Users/57286/CLionProjects/Chapter2/cmake-build-debug-mingw/CMakeFiles/04.style_c.c.dir
+C:/Users/57286/CLionProjects/Chapter2/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+C:/Users/57286/CLionProjects/Chapter2/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir

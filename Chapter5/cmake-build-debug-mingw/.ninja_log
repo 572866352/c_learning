@@ -1,0 +1,9 @@
+# ninja log v5
+1	28	6902030392219289	CMakeFiles/01.file_include.c.dir/01.file_include.c.obj	862c52713b1ef8e6
+34	74	6902161033113076	04.conditional_macro.c.exe	ad02ef3e08b9c4e2
+29	84	6902030392758874	01.file_include.c.exe	24a6e197849e6045
+1	32	6902161032714409	CMakeFiles/04.conditional_macro.c.dir/src/factorial.c.obj	9d711d098acc8b83
+3	33	6902161032724378	CMakeFiles/04.conditional_macro.c.dir/04.conditional_macro.c.obj	a9cfe3b6848628b6
+1	34	6902162096777950	CMakeFiles/04.conditional_macro.c.dir/src/factorial.c.obj	2238ebbd375a656
+3	34	6902162096777950	CMakeFiles/04.conditional_macro.c.dir/04.conditional_macro.c.obj	e3a33c0c9e5936fb
+34	80	6902162097166643	04.conditional_macro.c.exe	ad02ef3e08b9c4e2

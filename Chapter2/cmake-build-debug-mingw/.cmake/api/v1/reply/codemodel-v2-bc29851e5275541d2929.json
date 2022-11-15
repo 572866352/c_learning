@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cmake-build-debug-mingw",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "02.hello_world.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02.hello_world.c-Debug-0d537c2c8d4822b01bfd.json",
+					"name" : "02.hello_world.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03.debug_c.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03.debug_c.c-Debug-820557d942b0288bcd5f.json",
+					"name" : "03.debug_c.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04.style_c.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04.style_c.c-Debug-5f1727354be3858758f4.json",
+					"name" : "04.style_c.c",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/57286/CLionProjects/Chapter2/cmake-build-debug-mingw",
+		"source" : "C:/Users/57286/CLionProjects/Chapter2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

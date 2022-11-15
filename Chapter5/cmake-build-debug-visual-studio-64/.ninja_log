@@ -1,0 +1,17 @@
+# ninja log v5
+0	93	6902029802784397	CMakeFiles/01.file_include.c.dir/01.file_include.c.obj	61c79950b885ff1a
+304	391	6902146048150575	02.my_include_file.c.exe	c431ea33caebd828
+93	143	6902029803182641	01.file_include.c.exe	18d9ab81aa4b029b
+0	380	6902038393639392	CMakeFiles/02.my_include_file.c.dir/src/factoria.c.obj	e82788775b4a915
+0	303	6902146047411880	CMakeFiles/02.my_include_file.c.dir/02.my_include_file.c.obj	dbac2a62692febff
+0	105	6902137650976812	CMakeFiles/03.macro_function.c.dir/03.macro_function.c.obj	b6dcea1d7524d018
+1	407	6902130511873093	CMakeFiles/03.macro_function.c.dir/src/factoria.c.obj	b192292db434d9f
+105	159	6902137651404355	03.macro_function.c.exe	1f7dfa8ec0453b79
+1	304	6902146047431814	CMakeFiles/02.my_include_file.c.dir/src/factorial.c.obj	c87a18fe168a134b
+0	58	6902161197924192	build.ninja	627c73bbe719d361
+2	105	6902150028902129	CMakeFiles/04.conditional_macro.c.dir/04.conditional_macro.c.obj	ba499eff3c8cab0c
+1	114	6902150029001806	CMakeFiles/04.conditional_macro.c.dir/src/factorial.c.obj	af9089bcde850f20
+114	221	6902150030014118	04.conditional_macro.c.exe	a466b7fd347ebfaf
+2	397	6902161762662871	CMakeFiles/04.conditional_macro.c.dir/src/factorial.c.obj	8aaaeda998b06722
+0	400	6902161762702734	CMakeFiles/04.conditional_macro.c.dir/04.conditional_macro.c.obj	d44326980ee180b6
+400	519	6902161763637615	04.conditional_macro.c.exe	a466b7fd347ebfaf

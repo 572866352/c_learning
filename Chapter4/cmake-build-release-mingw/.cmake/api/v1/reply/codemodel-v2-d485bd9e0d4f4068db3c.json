@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cmake-build-release-mingw",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01.functio_basics.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01.functio_basics.c-Release-863d651b3ded9fd9a8ec.json",
+					"name" : "01.functio_basics.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02.proto_type.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02.proto_type.c-Release-5e298767b557b5ab79cf.json",
+					"name" : "02.proto_type.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03.variable_type_and_scope.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03.variable_type_and_scope.c-Release-9e1a4b774cb8713cfca0.json",
+					"name" : "03.variable_type_and_scope.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04.varargs.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04.varargs.c-Release-58370b7a35088b598bc4.json",
+					"name" : "04.varargs.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05.recursion.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05.recursion.c-Release-298ecfc974809fdfb017.json",
+					"name" : "05.recursion.c",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/57286/CLionProjects/Chapter4/cmake-build-release-mingw",
+		"source" : "C:/Users/57286/CLionProjects/Chapter4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -1,0 +1,6 @@
+C:/Users/57286/CLionProjects/Chapter5/cmake-build-debug-visual-studio-64/CMakeFiles/01.file_include.c.dir
+C:/Users/57286/CLionProjects/Chapter5/cmake-build-debug-visual-studio-64/CMakeFiles/02.my_include_file.c.dir
+C:/Users/57286/CLionProjects/Chapter5/cmake-build-debug-visual-studio-64/CMakeFiles/03.macro_function.c.dir
+C:/Users/57286/CLionProjects/Chapter5/cmake-build-debug-visual-studio-64/CMakeFiles/04.conditional_macro.c.dir
+C:/Users/57286/CLionProjects/Chapter5/cmake-build-debug-visual-studio-64/CMakeFiles/edit_cache.dir
+C:/Users/57286/CLionProjects/Chapter5/cmake-build-debug-visual-studio-64/CMakeFiles/rebuild_cache.dir

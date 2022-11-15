@@ -1,0 +1,17 @@
+# ninja log v5
+0	370	6900118195591070	CMakeFiles/01.functio_basics.c.dir/01.functio_basics.c.obj	94ea2e5d2ae0a253
+371	425	6900118196011074	01.functio_basics.c.exe	7d163bd821b4ff4e
+0	103	6900205784779582	CMakeFiles/03.variable_type_and_scope.c.dir/03.variable_type_and_scope.c.obj	7b4671315b94e2c2
+0	104	6900118557076376	CMakeFiles/02.proto_type.c.dir/02.proto_type.c.obj	d55d63c7eb69e086
+104	214	6900118558121429	02.proto_type.c.exe	ee60326d5cd48bc
+103	154	6900205785179603	03.variable_type_and_scope.c.exe	2b861f035a73a325
+104	153	6900231762335372	04.varargs.c.exe	b04c7df4a4887bf6
+0	103	6900231761935370	CMakeFiles/04.varargs.c.dir/04.varargs.c.obj	2d191011c0d8886c
+0	119	6900236384993427	CMakeFiles/04.varargs.c.dir/04.varargs.c.obj	2d191011c0d8886c
+119	169	6900236385393426	04.varargs.c.exe	b04c7df4a4887bf6
+0	28	6900236422092517	CMakeFiles/05.recursion.c.dir/05.recursion.c.obj	b479402810eff664
+28	133	6900236423083175	05.recursion.c.exe	88ea764234952827
+1	103	6900239164568131	CMakeFiles/05.recursion.c.dir/05.recursion.c.obj	b479402810eff664
+104	154	6900239164963187	05.recursion.c.exe	88ea764234952827
+0	30	6900239238896520	CMakeFiles/05.recursion.c.dir/05.recursion.c.obj	b479402810eff664
+30	79	6900239239281560	05.recursion.c.exe	88ea764234952827

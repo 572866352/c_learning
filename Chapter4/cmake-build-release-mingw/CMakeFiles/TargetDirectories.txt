@@ -1,0 +1,7 @@
+C:/Users/57286/CLionProjects/Chapter4/cmake-build-release-mingw/CMakeFiles/01.functio_basics.c.dir
+C:/Users/57286/CLionProjects/Chapter4/cmake-build-release-mingw/CMakeFiles/02.proto_type.c.dir
+C:/Users/57286/CLionProjects/Chapter4/cmake-build-release-mingw/CMakeFiles/03.variable_type_and_scope.c.dir
+C:/Users/57286/CLionProjects/Chapter4/cmake-build-release-mingw/CMakeFiles/04.varargs.c.dir
+C:/Users/57286/CLionProjects/Chapter4/cmake-build-release-mingw/CMakeFiles/05.recursion.c.dir
+C:/Users/57286/CLionProjects/Chapter4/cmake-build-release-mingw/CMakeFiles/edit_cache.dir
+C:/Users/57286/CLionProjects/Chapter4/cmake-build-release-mingw/CMakeFiles/rebuild_cache.dir
