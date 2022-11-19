@@ -1,0 +1,2 @@
+C:/Users/57286/CLionProjects/Chapter6/cmake-build-release-mingw/CMakeFiles/edit_cache.dir
+C:/Users/57286/CLionProjects/Chapter6/cmake-build-release-mingw/CMakeFiles/rebuild_cache.dir
