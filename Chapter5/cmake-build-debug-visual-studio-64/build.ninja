@@ -228,6 +228,53 @@ build 04.conditional_macro.c.exe: C_EXECUTABLE_LINKER__04.2econditional_macro.2e
   TARGET_IMPLIB = 04.conditional_macro.c.lib
   TARGET_PDB = 04.conditional_macro.c.pdb
 
+# =============================================================================
+# Object build statements for EXECUTABLE target printlnf.c
+
+
+#############################################
+# Order-only phony target for printlnf.c
+
+build cmake_object_order_depends_target_printlnf.c: phony || CMakeFiles\printlnf.c.dir
+
+build CMakeFiles\printlnf.c.dir\printlnf.c.obj: C_COMPILER__printlnf.2ec_Debug C$:\Users\57286\CLionProjects\Chapter5\printlnf.c || cmake_object_order_depends_target_printlnf.c
+  DEFINES = -DDEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd -std:c17
+  INCLUDES = -IC:\Users\57286\CLionProjects\Chapter5\include
+  OBJECT_DIR = CMakeFiles\printlnf.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\printlnf.c.dir
+  TARGET_COMPILE_PDB = CMakeFiles\printlnf.c.dir\
+  TARGET_PDB = printlnf.c.pdb
+
+build CMakeFiles\printlnf.c.dir\src\factorial.c.obj: C_COMPILER__printlnf.2ec_Debug C$:\Users\57286\CLionProjects\Chapter5\src\factorial.c || cmake_object_order_depends_target_printlnf.c
+  DEFINES = -DDEBUG
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd -std:c17
+  INCLUDES = -IC:\Users\57286\CLionProjects\Chapter5\include
+  OBJECT_DIR = CMakeFiles\printlnf.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\printlnf.c.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\printlnf.c.dir\
+  TARGET_PDB = printlnf.c.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target printlnf.c
+
+
+#############################################
+# Link the executable printlnf.c.exe
+
+build printlnf.c.exe: C_EXECUTABLE_LINKER__printlnf.2ec_Debug CMakeFiles\printlnf.c.dir\printlnf.c.obj CMakeFiles\printlnf.c.dir\src\factorial.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\printlnf.c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\printlnf.c.dir\
+  TARGET_FILE = printlnf.c.exe
+  TARGET_IMPLIB = printlnf.c.lib
+  TARGET_PDB = printlnf.c.pdb
+
 
 #############################################
 # Utility command for edit_cache
@@ -262,6 +309,8 @@ build 03.macro_function.c: phony 03.macro_function.c.exe
 
 build 04.conditional_macro.c: phony 04.conditional_macro.c.exe
 
+build printlnf.c: phony printlnf.c.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -270,7 +319,7 @@ build 04.conditional_macro.c: phony 04.conditional_macro.c.exe
 #############################################
 # Folder: C:/Users/57286/CLionProjects/Chapter5/cmake-build-debug-visual-studio-64
 
-build all: phony 01.file_include.c.exe 02.my_include_file.c.exe 03.macro_function.c.exe 04.conditional_macro.c.exe
+build all: phony 01.file_include.c.exe 02.my_include_file.c.exe 03.macro_function.c.exe 04.conditional_macro.c.exe printlnf.c.exe
 
 # =============================================================================
 # Built-in targets
