@@ -77,6 +77,191 @@ build 01.array_basic.c.exe: C_EXECUTABLE_LINKER__01.2earray_basic.2ec_Debug CMak
   TARGET_IMPLIB = 01.array_basic.c.lib
   TARGET_PDB = 01.array_basic.c.pdb
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 02.array_limit.c
+
+
+#############################################
+# Order-only phony target for 02.array_limit.c
+
+build cmake_object_order_depends_target_02.array_limit.c: phony || CMakeFiles\02.array_limit.c.dir
+
+build CMakeFiles\02.array_limit.c.dir\02.array_limit.c.obj: C_COMPILER__02.2earray_limit.2ec_Debug C$:\Users\57286\CLionProjects\Chapter6\02.array_limit.c || cmake_object_order_depends_target_02.array_limit.c
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd -std:c17
+  INCLUDES = -IC:\Users\57286\CLionProjects\Chapter6\include
+  OBJECT_DIR = CMakeFiles\02.array_limit.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\02.array_limit.c.dir
+  TARGET_COMPILE_PDB = CMakeFiles\02.array_limit.c.dir\
+  TARGET_PDB = 02.array_limit.c.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02.array_limit.c
+
+
+#############################################
+# Link the executable 02.array_limit.c.exe
+
+build 02.array_limit.c.exe: C_EXECUTABLE_LINKER__02.2earray_limit.2ec_Debug CMakeFiles\02.array_limit.c.dir\02.array_limit.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\02.array_limit.c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\02.array_limit.c.dir\
+  TARGET_FILE = 02.array_limit.c.exe
+  TARGET_IMPLIB = 02.array_limit.c.lib
+  TARGET_PDB = 02.array_limit.c.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03.string_c.c
+
+
+#############################################
+# Order-only phony target for 03.string_c.c
+
+build cmake_object_order_depends_target_03.string_c.c: phony || CMakeFiles\03.string_c.c.dir
+
+build CMakeFiles\03.string_c.c.dir\03.string_c.c.obj: C_COMPILER__03.2estring_c.2ec_Debug C$:\Users\57286\CLionProjects\Chapter6\03.string_c.c || cmake_object_order_depends_target_03.string_c.c
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd -std:c17
+  INCLUDES = -IC:\Users\57286\CLionProjects\Chapter6\include
+  OBJECT_DIR = CMakeFiles\03.string_c.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\03.string_c.c.dir
+  TARGET_COMPILE_PDB = CMakeFiles\03.string_c.c.dir\
+  TARGET_PDB = 03.string_c.c.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03.string_c.c
+
+
+#############################################
+# Link the executable 03.string_c.c.exe
+
+build 03.string_c.c.exe: C_EXECUTABLE_LINKER__03.2estring_c.2ec_Debug CMakeFiles\03.string_c.c.dir\03.string_c.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\03.string_c.c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\03.string_c.c.dir\
+  TARGET_FILE = 03.string_c.c.exe
+  TARGET_IMPLIB = 03.string_c.c.lib
+  TARGET_PDB = 03.string_c.c.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04.array_parameter.c
+
+
+#############################################
+# Order-only phony target for 04.array_parameter.c
+
+build cmake_object_order_depends_target_04.array_parameter.c: phony || CMakeFiles\04.array_parameter.c.dir
+
+build CMakeFiles\04.array_parameter.c.dir\04.array_parameter.c.obj: C_COMPILER__04.2earray_parameter.2ec_Debug C$:\Users\57286\CLionProjects\Chapter6\04.array_parameter.c || cmake_object_order_depends_target_04.array_parameter.c
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd -std:c17
+  INCLUDES = -IC:\Users\57286\CLionProjects\Chapter6\include
+  OBJECT_DIR = CMakeFiles\04.array_parameter.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\04.array_parameter.c.dir
+  TARGET_COMPILE_PDB = CMakeFiles\04.array_parameter.c.dir\
+  TARGET_PDB = 04.array_parameter.c.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04.array_parameter.c
+
+
+#############################################
+# Link the executable 04.array_parameter.c.exe
+
+build 04.array_parameter.c.exe: C_EXECUTABLE_LINKER__04.2earray_parameter.2ec_Debug CMakeFiles\04.array_parameter.c.dir\04.array_parameter.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\04.array_parameter.c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\04.array_parameter.c.dir\
+  TARGET_FILE = 04.array_parameter.c.exe
+  TARGET_IMPLIB = 04.array_parameter.c.lib
+  TARGET_PDB = 04.array_parameter.c.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 05.2d_array.c
+
+
+#############################################
+# Order-only phony target for 05.2d_array.c
+
+build cmake_object_order_depends_target_05.2d_array.c: phony || CMakeFiles\05.2d_array.c.dir
+
+build CMakeFiles\05.2d_array.c.dir\05.2d_array.c.obj: C_COMPILER__05.2e2d_array.2ec_Debug C$:\Users\57286\CLionProjects\Chapter6\05.2d_array.c || cmake_object_order_depends_target_05.2d_array.c
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd -std:c17
+  INCLUDES = -IC:\Users\57286\CLionProjects\Chapter6\include
+  OBJECT_DIR = CMakeFiles\05.2d_array.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\05.2d_array.c.dir
+  TARGET_COMPILE_PDB = CMakeFiles\05.2d_array.c.dir\
+  TARGET_PDB = 05.2d_array.c.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 05.2d_array.c
+
+
+#############################################
+# Link the executable 05.2d_array.c.exe
+
+build 05.2d_array.c.exe: C_EXECUTABLE_LINKER__05.2e2d_array.2ec_Debug CMakeFiles\05.2d_array.c.dir\05.2d_array.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\05.2d_array.c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\05.2d_array.c.dir\
+  TARGET_FILE = 05.2d_array.c.exe
+  TARGET_IMPLIB = 05.2d_array.c.lib
+  TARGET_PDB = 05.2d_array.c.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 06.shuffle_array.c
+
+
+#############################################
+# Order-only phony target for 06.shuffle_array.c
+
+build cmake_object_order_depends_target_06.shuffle_array.c: phony || CMakeFiles\06.shuffle_array.c.dir
+
+build CMakeFiles\06.shuffle_array.c.dir\06.shuffle_array.c.obj: C_COMPILER__06.2eshuffle_array.2ec_Debug C$:\Users\57286\CLionProjects\Chapter6\06.shuffle_array.c || cmake_object_order_depends_target_06.shuffle_array.c
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd -std:c17
+  INCLUDES = -IC:\Users\57286\CLionProjects\Chapter6\include
+  OBJECT_DIR = CMakeFiles\06.shuffle_array.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\06.shuffle_array.c.dir
+  TARGET_COMPILE_PDB = CMakeFiles\06.shuffle_array.c.dir\
+  TARGET_PDB = 06.shuffle_array.c.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 06.shuffle_array.c
+
+
+#############################################
+# Link the executable 06.shuffle_array.c.exe
+
+build 06.shuffle_array.c.exe: C_EXECUTABLE_LINKER__06.2eshuffle_array.2ec_Debug CMakeFiles\06.shuffle_array.c.dir\06.shuffle_array.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\06.shuffle_array.c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\06.shuffle_array.c.dir\
+  TARGET_FILE = 06.shuffle_array.c.exe
+  TARGET_IMPLIB = 06.shuffle_array.c.lib
+  TARGET_PDB = 06.shuffle_array.c.pdb
+
 
 #############################################
 # Utility command for edit_cache
@@ -105,6 +290,16 @@ build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 
 build 01.array_basic.c: phony 01.array_basic.c.exe
 
+build 02.array_limit.c: phony 02.array_limit.c.exe
+
+build 03.string_c.c: phony 03.string_c.c.exe
+
+build 04.array_parameter.c: phony 04.array_parameter.c.exe
+
+build 05.2d_array.c: phony 05.2d_array.c.exe
+
+build 06.shuffle_array.c: phony 06.shuffle_array.c.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -113,7 +308,7 @@ build 01.array_basic.c: phony 01.array_basic.c.exe
 #############################################
 # Folder: C:/Users/57286/CLionProjects/Chapter6/cmake-build-debug-visual-studio-64
 
-build all: phony 01.array_basic.c.exe
+build all: phony 01.array_basic.c.exe 02.array_limit.c.exe 03.string_c.c.exe 04.array_parameter.c.exe 05.2d_array.c.exe 06.shuffle_array.c.exe
 
 # =============================================================================
 # Built-in targets

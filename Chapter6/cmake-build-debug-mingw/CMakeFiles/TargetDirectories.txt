@@ -1,3 +1,8 @@
 C:/Users/57286/CLionProjects/Chapter6/cmake-build-debug-mingw/CMakeFiles/01.array_basic.c.dir
+C:/Users/57286/CLionProjects/Chapter6/cmake-build-debug-mingw/CMakeFiles/02.array_limit.c.dir
+C:/Users/57286/CLionProjects/Chapter6/cmake-build-debug-mingw/CMakeFiles/03.string_c.c.dir
+C:/Users/57286/CLionProjects/Chapter6/cmake-build-debug-mingw/CMakeFiles/04.array_parameter.c.dir
+C:/Users/57286/CLionProjects/Chapter6/cmake-build-debug-mingw/CMakeFiles/05.2d_array.c.dir
+C:/Users/57286/CLionProjects/Chapter6/cmake-build-debug-mingw/CMakeFiles/06.shuffle_array.c.dir
 C:/Users/57286/CLionProjects/Chapter6/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
 C:/Users/57286/CLionProjects/Chapter6/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
