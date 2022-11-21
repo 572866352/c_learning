@@ -1,0 +1,12 @@
+# ninja log v5
+0	386	6905594870551917	CMakeFiles/01.array_basic.c.dir/01.array_basic.c.obj	be0f7d645db11cc0
+386	446	6905594871031183	01.array_basic.c.exe	51be16747f3ac8a8
+0	31	6906482880363686	CMakeFiles/02.array_limit.c.dir/02.array_limit.c.obj	622600161b51c7f2
+0	112	6906961129092454	CMakeFiles/04.array_parameter.c.dir/04.array_parameter.c.obj	c763575fd613d4b6
+2	383	6905572565420049	CMakeFiles/01.array_basic.c.dir/src/printlnf.c.obj	4829df1cd702434c
+31	83	6906482880787353	02.array_limit.c.exe	5d8c2372d839d165
+0	117	6906952981503467	CMakeFiles/03.string_c.c.dir/03.string_c.c.obj	1c4132438d8b7891
+117	172	6906952981942527	03.string_c.c.exe	8cda1ea5878b6b5e
+112	164	6906961129506442	04.array_parameter.c.exe	5bea1a646da7f019
+0	29	6906984011556567	CMakeFiles/05.2d_array.c.dir/05.2d_array.c.obj	485064f0426d92bf
+29	81	6906984011955568	05.2d_array.c.exe	a140b381a9341c76
