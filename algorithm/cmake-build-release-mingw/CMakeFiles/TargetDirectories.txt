@@ -1,0 +1,3 @@
+C:/Users/57286/CLionProjects/algorithm/cmake-build-release-mingw/CMakeFiles/main.c.dir
+C:/Users/57286/CLionProjects/algorithm/cmake-build-release-mingw/CMakeFiles/edit_cache.dir
+C:/Users/57286/CLionProjects/algorithm/cmake-build-release-mingw/CMakeFiles/rebuild_cache.dir
