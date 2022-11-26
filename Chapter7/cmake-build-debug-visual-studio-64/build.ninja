@@ -188,6 +188,117 @@ build 04.pointer_operations.c.exe: C_EXECUTABLE_LINKER__04.2epointer_operations.
   TARGET_IMPLIB = 04.pointer_operations.c.lib
   TARGET_PDB = 04.pointer_operations.c.pdb
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 05.leftvalue_rightvalue.c
+
+
+#############################################
+# Order-only phony target for 05.leftvalue_rightvalue.c
+
+build cmake_object_order_depends_target_05.leftvalue_rightvalue.c: phony || CMakeFiles\05.leftvalue_rightvalue.c.dir
+
+build CMakeFiles\05.leftvalue_rightvalue.c.dir\05.leftvalue_rightvalue.c.obj: C_COMPILER__05.2eleftvalue_rightvalue.2ec_Debug C$:\Users\57286\CLionProjects\Chapter7\05.leftvalue_rightvalue.c || cmake_object_order_depends_target_05.leftvalue_rightvalue.c
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd -std:c17
+  INCLUDES = -IC:\Users\57286\CLionProjects\Chapter7\include
+  OBJECT_DIR = CMakeFiles\05.leftvalue_rightvalue.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\05.leftvalue_rightvalue.c.dir
+  TARGET_COMPILE_PDB = CMakeFiles\05.leftvalue_rightvalue.c.dir\
+  TARGET_PDB = 05.leftvalue_rightvalue.c.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 05.leftvalue_rightvalue.c
+
+
+#############################################
+# Link the executable 05.leftvalue_rightvalue.c.exe
+
+build 05.leftvalue_rightvalue.c.exe: C_EXECUTABLE_LINKER__05.2eleftvalue_rightvalue.2ec_Debug CMakeFiles\05.leftvalue_rightvalue.c.dir\05.leftvalue_rightvalue.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\05.leftvalue_rightvalue.c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\05.leftvalue_rightvalue.c.dir\
+  TARGET_FILE = 05.leftvalue_rightvalue.c.exe
+  TARGET_IMPLIB = 05.leftvalue_rightvalue.c.lib
+  TARGET_PDB = 05.leftvalue_rightvalue.c.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 06.pointer_paramater_as_return.c
+
+
+#############################################
+# Order-only phony target for 06.pointer_paramater_as_return.c
+
+build cmake_object_order_depends_target_06.pointer_paramater_as_return.c: phony || CMakeFiles\06.pointer_paramater_as_return.c.dir
+
+build CMakeFiles\06.pointer_paramater_as_return.c.dir\06.pointer_paramater_as_return.c.obj: C_COMPILER__06.2epointer_paramater_as_return.2ec_Debug C$:\Users\57286\CLionProjects\Chapter7\06.pointer_paramater_as_return.c || cmake_object_order_depends_target_06.pointer_paramater_as_return.c
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd -std:c17
+  INCLUDES = -IC:\Users\57286\CLionProjects\Chapter7\include
+  OBJECT_DIR = CMakeFiles\06.pointer_paramater_as_return.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\06.pointer_paramater_as_return.c.dir
+  TARGET_COMPILE_PDB = CMakeFiles\06.pointer_paramater_as_return.c.dir\
+  TARGET_PDB = 06.pointer_paramater_as_return.c.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 06.pointer_paramater_as_return.c
+
+
+#############################################
+# Link the executable 06.pointer_paramater_as_return.c.exe
+
+build 06.pointer_paramater_as_return.c.exe: C_EXECUTABLE_LINKER__06.2epointer_paramater_as_return.2ec_Debug CMakeFiles\06.pointer_paramater_as_return.c.dir\06.pointer_paramater_as_return.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\06.pointer_paramater_as_return.c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\06.pointer_paramater_as_return.c.dir\
+  TARGET_FILE = 06.pointer_paramater_as_return.c.exe
+  TARGET_IMPLIB = 06.pointer_paramater_as_return.c.lib
+  TARGET_PDB = 06.pointer_paramater_as_return.c.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 07.dynamic_memory.c
+
+
+#############################################
+# Order-only phony target for 07.dynamic_memory.c
+
+build cmake_object_order_depends_target_07.dynamic_memory.c: phony || CMakeFiles\07.dynamic_memory.c.dir
+
+build CMakeFiles\07.dynamic_memory.c.dir\07.dynamic_memory.c.obj: C_COMPILER__07.2edynamic_memory.2ec_Debug C$:\Users\57286\CLionProjects\Chapter7\07.dynamic_memory.c || cmake_object_order_depends_target_07.dynamic_memory.c
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd -std:c17
+  INCLUDES = -IC:\Users\57286\CLionProjects\Chapter7\include
+  OBJECT_DIR = CMakeFiles\07.dynamic_memory.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\07.dynamic_memory.c.dir
+  TARGET_COMPILE_PDB = CMakeFiles\07.dynamic_memory.c.dir\
+  TARGET_PDB = 07.dynamic_memory.c.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 07.dynamic_memory.c
+
+
+#############################################
+# Link the executable 07.dynamic_memory.c.exe
+
+build 07.dynamic_memory.c.exe: C_EXECUTABLE_LINKER__07.2edynamic_memory.2ec_Debug CMakeFiles\07.dynamic_memory.c.dir\07.dynamic_memory.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\07.dynamic_memory.c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\07.dynamic_memory.c.dir\
+  TARGET_FILE = 07.dynamic_memory.c.exe
+  TARGET_IMPLIB = 07.dynamic_memory.c.lib
+  TARGET_PDB = 07.dynamic_memory.c.pdb
+
 
 #############################################
 # Utility command for edit_cache
@@ -222,6 +333,12 @@ build 03.pointer_values.c: phony 03.pointer_values.c.exe
 
 build 04.pointer_operations.c: phony 04.pointer_operations.c.exe
 
+build 05.leftvalue_rightvalue.c: phony 05.leftvalue_rightvalue.c.exe
+
+build 06.pointer_paramater_as_return.c: phony 06.pointer_paramater_as_return.c.exe
+
+build 07.dynamic_memory.c: phony 07.dynamic_memory.c.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -230,7 +347,7 @@ build 04.pointer_operations.c: phony 04.pointer_operations.c.exe
 #############################################
 # Folder: C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-visual-studio-64
 
-build all: phony 01.pointer_basics.c.exe 02.readonly_pointer.c.exe 03.pointer_values.c.exe 04.pointer_operations.c.exe
+build all: phony 01.pointer_basics.c.exe 02.readonly_pointer.c.exe 03.pointer_values.c.exe 04.pointer_operations.c.exe 05.leftvalue_rightvalue.c.exe 06.pointer_paramater_as_return.c.exe 07.dynamic_memory.c.exe
 
 # =============================================================================
 # Built-in targets

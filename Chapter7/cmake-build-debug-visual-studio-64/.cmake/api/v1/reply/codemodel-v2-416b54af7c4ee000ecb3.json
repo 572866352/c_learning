@@ -18,7 +18,10 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5,
+						6
 					]
 				}
 			],
@@ -36,7 +39,10 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5,
+						6
 					]
 				}
 			],
@@ -68,6 +74,27 @@
 					"id" : "04.pointer_operations.c::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-04.pointer_operations.c-Debug-772eddd5b8b5862a96f0.json",
 					"name" : "04.pointer_operations.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05.leftvalue_rightvalue.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05.leftvalue_rightvalue.c-Debug-402a9a4628fd71bf7f92.json",
+					"name" : "05.leftvalue_rightvalue.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06.pointer_paramater_as_return.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06.pointer_paramater_as_return.c-Debug-08422a2cbf8e402af7db.json",
+					"name" : "06.pointer_paramater_as_return.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07.dynamic_memory.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07.dynamic_memory.c-Debug-e39dd950429c0f7afc35.json",
+					"name" : "07.dynamic_memory.c",
 					"projectIndex" : 0
 				}
 			]

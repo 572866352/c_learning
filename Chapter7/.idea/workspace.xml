@@ -11,10 +11,13 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
+      <config projectName="cmake-build-debug-mingw" targetName="07.dynamic_memory.c" />
       <config projectName="cmake-build-debug-mingw" targetName="01.pointer_basics.c" />
       <config projectName="cmake-build-debug-mingw" targetName="04.pointer_operations.c" />
       <config projectName="cmake-build-debug-mingw" targetName="02.readonly_pointer.c" />
       <config projectName="cmake-build-debug-mingw" targetName="03.pointer_values.c" />
+      <config projectName="cmake-build-debug-mingw" targetName="05.leftvalue_rightvalue.c" />
+      <config projectName="cmake-build-debug-mingw" targetName="06.pointer_paramater_as_return.c" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -25,175 +28,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4fe361e-be01-4225-9f1a-54013c8debb9" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/../Chapter6/.idea/compilerexplorer.settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Chapter6/07.quick_sort.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Chapter7.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.pointer_basics.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02.readonly_pointer.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03.pointer_values.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.pointer_operations.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/cache-v2-bc6c7f779bf65a54ca3a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/cmakeFiles-v1-8505a3ae8dddeb2f8e2b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/codemodel-v2-eecb78c902e9a5525831.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/index-2022-11-26T08-13-13-0111.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/target-01.pointer_basics.c-Debug-3b52822e9e8d332826a6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/target-02.readonly_pointer.c-Debug-a0594cb4d89611fe0d96.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/target-03.pointer_values.c-Debug-8cb8e2a813f4d5d8dc5a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/target-04.pointer_operations.c-Debug-14d541fbc7deb77b33c7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/toolchains-v1-cbd3993d45618f8f7caa.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/01.pointer_basics.c.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/03.pointer_values.c.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/01.pointer_basics.c.dir/01.pointer_basics.c.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/03.pointer_values.c.dir/03.pointer_values.c.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.23.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.23.2/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.23.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/3.23.2/CompilerIdC/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/cache-v2-e3959e963ad9a4dfd34a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/cmakeFiles-v1-255be6a83743a0b1fc48.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/codemodel-v2-7f85fb208d6f8b06c596.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/index-2022-11-26T08-13-13-0050.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/target-01.pointer_basics.c-Debug-9ca4534182fcbb6549e4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/target-02.readonly_pointer.c-Debug-ed489e39b141d3cafea0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/target-03.pointer_values.c-Debug-c98b8f88235b4a944aed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/target-04.pointer_operations.c-Debug-772eddd5b8b5862a96f0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/toolchains-v1-d8f2a4b922247e27b655.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/01.pointer_basics.c.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/01.pointer_basics.c.ilk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/01.pointer_basics.c.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/02.readonly_pointer.c.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/02.readonly_pointer.c.ilk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/02.readonly_pointer.c.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/03.pointer_values.c.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/03.pointer_values.c.ilk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/03.pointer_values.c.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/04.pointer_operations.c.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/04.pointer_operations.c.ilk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/04.pointer_operations.c.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/01.pointer_basics.c.dir/01.pointer_basics.c.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/01.pointer_basics.c.dir/embed.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/01.pointer_basics.c.dir/intermediate.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/01.pointer_basics.c.dir/manifest.rc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/01.pointer_basics.c.dir/manifest.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/01.pointer_basics.c.dir/vc140.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/02.readonly_pointer.c.dir/02.readonly_pointer.c.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/02.readonly_pointer.c.dir/embed.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/02.readonly_pointer.c.dir/intermediate.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/02.readonly_pointer.c.dir/manifest.rc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/02.readonly_pointer.c.dir/manifest.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/02.readonly_pointer.c.dir/vc140.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/03.pointer_values.c.dir/03.pointer_values.c.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/03.pointer_values.c.dir/embed.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/03.pointer_values.c.dir/intermediate.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/03.pointer_values.c.dir/manifest.rc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/03.pointer_values.c.dir/manifest.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/03.pointer_values.c.dir/vc140.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/04.pointer_operations.c.dir/04.pointer_operations.c.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/04.pointer_operations.c.dir/embed.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/04.pointer_operations.c.dir/intermediate.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/04.pointer_operations.c.dir/manifest.rc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/04.pointer_operations.c.dir/manifest.res" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/04.pointer_operations.c.dir/vc140.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/3.23.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/3.23.2/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/3.23.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/ShowIncludes/foo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/ShowIncludes/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/ShowIncludes/main.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/.cmake/api/v1/reply/cache-v2-a4806bb46f1d19dfed7a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/.cmake/api/v1/reply/cmakeFiles-v1-4a98ccbf4a6f7764f622.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/.cmake/api/v1/reply/codemodel-v2-adbc052a8b320cbceff8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/.cmake/api/v1/reply/directory-.-Release-d0094a50bb2071803777.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/.cmake/api/v1/reply/index-2022-11-26T02-55-17-0373.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/.cmake/api/v1/reply/target-01.pointer_basics.c-Release-962412330e2cc362ad10.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/.cmake/api/v1/reply/toolchains-v1-cbd3993d45618f8f7caa.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/CMakeFiles/3.23.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/CMakeFiles/3.23.2/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/CMakeFiles/3.23.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/CMakeFiles/3.23.2/CompilerIdC/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release-mingw/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/printlnf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter3/cmake-build-debug-visual-studio-64/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter3/cmake-build-debug-visual-studio-64/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter6/06.shuffle_array.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/06.shuffle_array.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-mingw/.cmake/api/v1/reply/codemodel-v2-3612fcfc4d6db61dad80.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-mingw/.cmake/api/v1/reply/index-2022-11-21T02-01-17-0955.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-mingw/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-mingw/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-mingw/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-mingw/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-mingw/06.shuffle_array.c.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-mingw/06.shuffle_array.c.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-mingw/CMakeFiles/06.shuffle_array.c.dir/06.shuffle_array.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-mingw/CMakeFiles/06.shuffle_array.c.dir/06.shuffle_array.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-mingw/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-mingw/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-mingw/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-mingw/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-mingw/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-mingw/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-mingw/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-mingw/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/codemodel-v2-8a4015cc4e934551a4e3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/index-2022-11-21T02-01-17-0950.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-visual-studio-64/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-visual-studio-64/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-visual-studio-64/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-visual-studio-64/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-visual-studio-64/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-visual-studio-64/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-visual-studio-64/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-visual-studio-64/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-visual-studio-64/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-visual-studio-64/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-visual-studio-64/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter6/cmake-build-debug-visual-studio-64/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compilerexplorer.settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05.leftvalue_rightvalue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06.pointer_paramater_as_return.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07.dynamic_memory.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/codemodel-v2-e57f32fa26381cd5c3f2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/index-2022-11-26T09-09-20-0961.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/target-05.leftvalue_rightvalue.c-Debug-49765c44616588f52436.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/target-06.pointer_paramater_as_return.c-Debug-1f6d1d5f45ec9dd32a56.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/target-07.dynamic_memory.c-Debug-88f893048f77873ade8d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/06.pointer_paramater_as_return.c.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/07.dynamic_memory.c.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/06.pointer_paramater_as_return.c.dir/06.pointer_paramater_as_return.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/07.dynamic_memory.c.dir/07.dynamic_memory.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/codemodel-v2-416b54af7c4ee000ecb3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/index-2022-11-26T09-09-20-0948.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/target-05.leftvalue_rightvalue.c-Debug-402a9a4628fd71bf7f92.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/target-06.pointer_paramater_as_return.c-Debug-08422a2cbf8e402af7db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/target-07.dynamic_memory.c-Debug-e39dd950429c0f7afc35.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/codemodel-v2-eecb78c902e9a5525831.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/index-2022-11-26T08-13-13-0111.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/codemodel-v2-7f85fb208d6f8b06c596.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/index-2022-11-26T08-13-13-0050.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +106,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "CMakeSettings"
+    "settings.editor.selected.configurable": "compilerexplorer"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -245,7 +114,7 @@
       <recent name="C:\Users\57286\CLionProjects\Chapter7" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 应用程序.04.pointer_operations.c">
+  <component name="RunManager" selected="CMake 应用程序.07.dynamic_memory.c">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -271,11 +140,29 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="05.leftvalue_rightvalue.c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cmake-build-debug-mingw" TARGET_NAME="05.leftvalue_rightvalue.c" CONFIG_NAME="Debug-Visual Studio-64" RUN_TARGET_PROJECT_NAME="cmake-build-debug-mingw" RUN_TARGET_NAME="05.leftvalue_rightvalue.c">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="06.pointer_paramater_as_return.c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cmake-build-debug-mingw" TARGET_NAME="06.pointer_paramater_as_return.c" CONFIG_NAME="Debug-Visual Studio-64" RUN_TARGET_PROJECT_NAME="cmake-build-debug-mingw" RUN_TARGET_NAME="06.pointer_paramater_as_return.c">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="07.dynamic_memory.c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cmake-build-debug-mingw" TARGET_NAME="07.dynamic_memory.c" CONFIG_NAME="Debug-Visual Studio-64" RUN_TARGET_PROJECT_NAME="cmake-build-debug-mingw" RUN_TARGET_NAME="07.dynamic_memory.c">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake 应用程序.01.pointer_basics.c" />
       <item itemvalue="CMake 应用程序.02.readonly_pointer.c" />
       <item itemvalue="CMake 应用程序.03.pointer_values.c" />
       <item itemvalue="CMake 应用程序.04.pointer_operations.c" />
+      <item itemvalue="CMake 应用程序.05.leftvalue_rightvalue.c" />
+      <item itemvalue="CMake 应用程序.06.pointer_paramater_as_return.c" />
+      <item itemvalue="CMake 应用程序.07.dynamic_memory.c" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
@@ -286,7 +173,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669431154153</updated>
-      <workItem from="1669431155578" duration="6233000" />
+      <workItem from="1669431155578" duration="9334000" />
     </task>
     <servers />
   </component>

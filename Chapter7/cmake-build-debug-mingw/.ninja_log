@@ -1,5 +1,13 @@
 # ninja log v5
 1	30	6911353771743368	CMakeFiles/01.pointer_basics.c.dir/01.pointer_basics.c.obj	bee959f1b462c506
 30	72	6911353772140866	01.pointer_basics.c.exe	a8c2018bb7835bc0
+57	173	6911563218196411	06.pointer_paramater_as_return.c.exe	e47dfc5e5b522f2
 1	31	6911386235179891	CMakeFiles/03.pointer_values.c.dir/03.pointer_values.c.obj	d65fedea03b44929
 31	75	6911386235592389	03.pointer_values.c.exe	7b59aef8cb58bffe
+0	57	6911563217057752	CMakeFiles/06.pointer_paramater_as_return.c.dir/06.pointer_paramater_as_return.c.obj	f8f50470a4483aa1
+0	33	6911573794537099	CMakeFiles/07.dynamic_memory.c.dir/07.dynamic_memory.c.obj	7bea7a6eaf49a9a3
+33	79	6911573794967815	07.dynamic_memory.c.exe	c8f598f45e9f24ed
+1	34	6911578388676680	CMakeFiles/07.dynamic_memory.c.dir/07.dynamic_memory.c.obj	7bea7a6eaf49a9a3
+34	76	6911578389080805	07.dynamic_memory.c.exe	c8f598f45e9f24ed
+1	34	6911578525323204	CMakeFiles/07.dynamic_memory.c.dir/07.dynamic_memory.c.obj	7bea7a6eaf49a9a3
+34	76	6911578525719002	07.dynamic_memory.c.exe	c8f598f45e9f24ed
