@@ -1,0 +1,5 @@
+# ninja log v5
+1	30	6911353771743368	CMakeFiles/01.pointer_basics.c.dir/01.pointer_basics.c.obj	bee959f1b462c506
+30	72	6911353772140866	01.pointer_basics.c.exe	a8c2018bb7835bc0
+1	31	6911386235179891	CMakeFiles/03.pointer_values.c.dir/03.pointer_values.c.obj	d65fedea03b44929
+31	75	6911386235592389	03.pointer_values.c.exe	7b59aef8cb58bffe

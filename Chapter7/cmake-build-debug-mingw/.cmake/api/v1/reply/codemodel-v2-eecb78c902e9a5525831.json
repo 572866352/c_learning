@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cmake-build-debug-mingw",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01.pointer_basics.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01.pointer_basics.c-Debug-3b52822e9e8d332826a6.json",
+					"name" : "01.pointer_basics.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02.readonly_pointer.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02.readonly_pointer.c-Debug-a0594cb4d89611fe0d96.json",
+					"name" : "02.readonly_pointer.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03.pointer_values.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03.pointer_values.c-Debug-8cb8e2a813f4d5d8dc5a.json",
+					"name" : "03.pointer_values.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04.pointer_operations.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04.pointer_operations.c-Debug-14d541fbc7deb77b33c7.json",
+					"name" : "04.pointer_operations.c",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-mingw",
+		"source" : "C:/Users/57286/CLionProjects/Chapter7"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

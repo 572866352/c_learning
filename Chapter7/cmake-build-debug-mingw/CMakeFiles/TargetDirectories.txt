@@ -1,0 +1,6 @@
+C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-mingw/CMakeFiles/01.pointer_basics.c.dir
+C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-mingw/CMakeFiles/02.readonly_pointer.c.dir
+C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-mingw/CMakeFiles/03.pointer_values.c.dir
+C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-mingw/CMakeFiles/04.pointer_operations.c.dir
+C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir

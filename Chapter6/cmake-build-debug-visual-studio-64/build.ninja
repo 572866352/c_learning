@@ -262,6 +262,43 @@ build 06.shuffle_array.c.exe: C_EXECUTABLE_LINKER__06.2eshuffle_array.2ec_Debug 
   TARGET_IMPLIB = 06.shuffle_array.c.lib
   TARGET_PDB = 06.shuffle_array.c.pdb
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 07.quick_sort.c
+
+
+#############################################
+# Order-only phony target for 07.quick_sort.c
+
+build cmake_object_order_depends_target_07.quick_sort.c: phony || CMakeFiles\07.quick_sort.c.dir
+
+build CMakeFiles\07.quick_sort.c.dir\07.quick_sort.c.obj: C_COMPILER__07.2equick_sort.2ec_Debug C$:\Users\57286\CLionProjects\Chapter6\07.quick_sort.c || cmake_object_order_depends_target_07.quick_sort.c
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd -std:c17
+  INCLUDES = -IC:\Users\57286\CLionProjects\Chapter6\include
+  OBJECT_DIR = CMakeFiles\07.quick_sort.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\07.quick_sort.c.dir
+  TARGET_COMPILE_PDB = CMakeFiles\07.quick_sort.c.dir\
+  TARGET_PDB = 07.quick_sort.c.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 07.quick_sort.c
+
+
+#############################################
+# Link the executable 07.quick_sort.c.exe
+
+build 07.quick_sort.c.exe: C_EXECUTABLE_LINKER__07.2equick_sort.2ec_Debug CMakeFiles\07.quick_sort.c.dir\07.quick_sort.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\07.quick_sort.c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\07.quick_sort.c.dir\
+  TARGET_FILE = 07.quick_sort.c.exe
+  TARGET_IMPLIB = 07.quick_sort.c.lib
+  TARGET_PDB = 07.quick_sort.c.pdb
+
 
 #############################################
 # Utility command for edit_cache
@@ -300,6 +337,8 @@ build 05.2d_array.c: phony 05.2d_array.c.exe
 
 build 06.shuffle_array.c: phony 06.shuffle_array.c.exe
 
+build 07.quick_sort.c: phony 07.quick_sort.c.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -308,7 +347,7 @@ build 06.shuffle_array.c: phony 06.shuffle_array.c.exe
 #############################################
 # Folder: C:/Users/57286/CLionProjects/Chapter6/cmake-build-debug-visual-studio-64
 
-build all: phony 01.array_basic.c.exe 02.array_limit.c.exe 03.string_c.c.exe 04.array_parameter.c.exe 05.2d_array.c.exe 06.shuffle_array.c.exe
+build all: phony 01.array_basic.c.exe 02.array_limit.c.exe 03.string_c.c.exe 04.array_parameter.c.exe 05.2d_array.c.exe 06.shuffle_array.c.exe 07.quick_sort.c.exe
 
 # =============================================================================
 # Built-in targets

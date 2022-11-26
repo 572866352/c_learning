@@ -9,12 +9,14 @@
 
 #define PLAYERS_COUNT 50
 
+//简单交换两个数组元素的数据
 void SWAPELEMENTS(int array[],int first,int second) {
   int temp = array[first];
   array[first] = second;
   array[second] = temp;
 }
 
+//生成随机数，将数组的第i个元素与第（随机数）个元素交换 实现乱序
 void SHUFFLEARRAY(int array[],int lenth) {
   srand(time(NULL));
 //  [0,rand_max]
