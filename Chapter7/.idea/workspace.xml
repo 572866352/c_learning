@@ -17,6 +17,8 @@
       <config projectName="cmake-build-debug-mingw" targetName="02.readonly_pointer.c" />
       <config projectName="cmake-build-debug-mingw" targetName="03.pointer_values.c" />
       <config projectName="cmake-build-debug-mingw" targetName="05.leftvalue_rightvalue.c" />
+      <config projectName="cmake-build-debug-mingw" targetName="09.swap_values.c" />
+      <config projectName="cmake-build-debug-mingw" targetName="10.quick_sort.c" />
       <config projectName="cmake-build-debug-mingw" targetName="06.pointer_paramater_as_return.c" />
       <config projectName="cmake-build-debug-mingw" targetName="08.function_pointer.c" />
     </generated>
@@ -29,30 +31,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4fe361e-be01-4225-9f1a-54013c8debb9" name="变更" comment="chapter7">
-      <change afterPath="$PROJECT_DIR$/08.function_pointer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09.swap_values.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.quick_sort.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07.dynamic_memory.c" beforeDir="false" afterPath="$PROJECT_DIR$/07.dynamic_memory.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/codemodel-v2-e57f32fa26381cd5c3f2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/index-2022-11-26T09-09-20-0961.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/codemodel-v2-14856e565800e9c63634.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/index-2022-11-27T02-00-00-0856.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/codemodel-v2-416b54af7c4ee000ecb3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/index-2022-11-26T09-09-20-0948.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/codemodel-v2-50c9ca8aacb01d87d3b7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/index-2022-11-27T02-00-00-0801.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/07.dynamic_memory.c.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/07.dynamic_memory.c.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/07.dynamic_memory.c.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/07.dynamic_memory.c.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/07.dynamic_memory.c.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/07.dynamic_memory.c.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/07.dynamic_memory.c.dir/07.dynamic_memory.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/07.dynamic_memory.c.dir/07.dynamic_memory.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/07.dynamic_memory.c.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/07.dynamic_memory.c.dir/vc140.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/printlnf.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/printlnf.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +102,12 @@
       <recent name="C:\Users\57286\CLionProjects\Chapter7" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 应用程序.08.function_pointer.c">
+  <component name="RunManager" selected="CMake 应用程序.10.quick_sort.c">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="01.pointer_basics.c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cmake-build-debug-mingw" TARGET_NAME="01.pointer_basics.c" CONFIG_NAME="Debug-Visual Studio-64" RUN_TARGET_PROJECT_NAME="cmake-build-debug-mingw" RUN_TARGET_NAME="01.pointer_basics.c">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -145,7 +148,12 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="09.swap_values.c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cmake-build-debug-mingw" TARGET_NAME="09.swap_values.c" CONFIG_NAME="Debug-Visual Studio-64" RUN_TARGET_PROJECT_NAME="cmake-build-debug-mingw" RUN_TARGET_NAME="09.swap_values.c">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="10.quick_sort.c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cmake-build-debug-mingw" TARGET_NAME="10.quick_sort.c" CONFIG_NAME="Debug-Visual Studio-64" RUN_TARGET_PROJECT_NAME="cmake-build-debug-mingw" RUN_TARGET_NAME="10.quick_sort.c">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -159,6 +167,8 @@
       <item itemvalue="CMake 应用程序.06.pointer_paramater_as_return.c" />
       <item itemvalue="CMake 应用程序.07.dynamic_memory.c" />
       <item itemvalue="CMake 应用程序.08.function_pointer.c" />
+      <item itemvalue="CMake 应用程序.09.swap_values.c" />
+      <item itemvalue="CMake 应用程序.10.quick_sort.c" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
@@ -170,7 +180,8 @@
       <option name="presentableId" value="Default" />
       <updated>1669431154153</updated>
       <workItem from="1669431155578" duration="11835000" />
-      <workItem from="1669513976359" duration="2421000" />
+      <workItem from="1669513976359" duration="2955000" />
+      <workItem from="1669525230791" duration="4444000" />
     </task>
     <task id="LOCAL-00001" summary="chapter7">
       <created>1669456402946</created>
@@ -179,7 +190,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669456402946</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="chapter7">
+      <created>1669516572387</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669516572387</updated>
+    </task>
+    <task id="LOCAL-00003" summary="chapter7">
+      <created>1669516643403</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669516643403</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

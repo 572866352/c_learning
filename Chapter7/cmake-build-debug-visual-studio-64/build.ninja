@@ -336,6 +336,117 @@ build 08.function_pointer.c.exe: C_EXECUTABLE_LINKER__08.2efunction_pointer.2ec_
   TARGET_IMPLIB = 08.function_pointer.c.lib
   TARGET_PDB = 08.function_pointer.c.pdb
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 09.swap_values.c
+
+
+#############################################
+# Order-only phony target for 09.swap_values.c
+
+build cmake_object_order_depends_target_09.swap_values.c: phony || CMakeFiles\09.swap_values.c.dir
+
+build CMakeFiles\09.swap_values.c.dir\09.swap_values.c.obj: C_COMPILER__09.2eswap_values.2ec_Debug C$:\Users\57286\CLionProjects\Chapter7\09.swap_values.c || cmake_object_order_depends_target_09.swap_values.c
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd -std:c17
+  INCLUDES = -IC:\Users\57286\CLionProjects\Chapter7\include
+  OBJECT_DIR = CMakeFiles\09.swap_values.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\09.swap_values.c.dir
+  TARGET_COMPILE_PDB = CMakeFiles\09.swap_values.c.dir\
+  TARGET_PDB = 09.swap_values.c.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 09.swap_values.c
+
+
+#############################################
+# Link the executable 09.swap_values.c.exe
+
+build 09.swap_values.c.exe: C_EXECUTABLE_LINKER__09.2eswap_values.2ec_Debug CMakeFiles\09.swap_values.c.dir\09.swap_values.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\09.swap_values.c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\09.swap_values.c.dir\
+  TARGET_FILE = 09.swap_values.c.exe
+  TARGET_IMPLIB = 09.swap_values.c.lib
+  TARGET_PDB = 09.swap_values.c.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10.quick_sort.c
+
+
+#############################################
+# Order-only phony target for 10.quick_sort.c
+
+build cmake_object_order_depends_target_10.quick_sort.c: phony || CMakeFiles\10.quick_sort.c.dir
+
+build CMakeFiles\10.quick_sort.c.dir\10.quick_sort.c.obj: C_COMPILER__10.2equick_sort.2ec_Debug C$:\Users\57286\CLionProjects\Chapter7\10.quick_sort.c || cmake_object_order_depends_target_10.quick_sort.c
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd -std:c17
+  INCLUDES = -IC:\Users\57286\CLionProjects\Chapter7\include
+  OBJECT_DIR = CMakeFiles\10.quick_sort.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\10.quick_sort.c.dir
+  TARGET_COMPILE_PDB = CMakeFiles\10.quick_sort.c.dir\
+  TARGET_PDB = 10.quick_sort.c.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10.quick_sort.c
+
+
+#############################################
+# Link the executable 10.quick_sort.c.exe
+
+build 10.quick_sort.c.exe: C_EXECUTABLE_LINKER__10.2equick_sort.2ec_Debug CMakeFiles\10.quick_sort.c.dir\10.quick_sort.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\10.quick_sort.c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\10.quick_sort.c.dir\
+  TARGET_FILE = 10.quick_sort.c.exe
+  TARGET_IMPLIB = 10.quick_sort.c.lib
+  TARGET_PDB = 10.quick_sort.c.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test.c
+
+
+#############################################
+# Order-only phony target for test.c
+
+build cmake_object_order_depends_target_test.c: phony || CMakeFiles\test.c.dir
+
+build CMakeFiles\test.c.dir\test.c.obj: C_COMPILER__test.2ec_Debug C$:\Users\57286\CLionProjects\Chapter7\test.c || cmake_object_order_depends_target_test.c
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd -std:c17
+  INCLUDES = -IC:\Users\57286\CLionProjects\Chapter7\include
+  OBJECT_DIR = CMakeFiles\test.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\test.c.dir
+  TARGET_COMPILE_PDB = CMakeFiles\test.c.dir\
+  TARGET_PDB = test.c.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test.c
+
+
+#############################################
+# Link the executable test.c.exe
+
+build test.c.exe: C_EXECUTABLE_LINKER__test.2ec_Debug CMakeFiles\test.c.dir\test.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\test.c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\test.c.dir\
+  TARGET_FILE = test.c.exe
+  TARGET_IMPLIB = test.c.lib
+  TARGET_PDB = test.c.pdb
+
 
 #############################################
 # Utility command for edit_cache
@@ -378,6 +489,12 @@ build 07.dynamic_memory.c: phony 07.dynamic_memory.c.exe
 
 build 08.function_pointer.c: phony 08.function_pointer.c.exe
 
+build 09.swap_values.c: phony 09.swap_values.c.exe
+
+build 10.quick_sort.c: phony 10.quick_sort.c.exe
+
+build test.c: phony test.c.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -386,7 +503,7 @@ build 08.function_pointer.c: phony 08.function_pointer.c.exe
 #############################################
 # Folder: C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-visual-studio-64
 
-build all: phony 01.pointer_basics.c.exe 02.readonly_pointer.c.exe 03.pointer_values.c.exe 04.pointer_operations.c.exe 05.leftvalue_rightvalue.c.exe 06.pointer_paramater_as_return.c.exe 07.dynamic_memory.c.exe 08.function_pointer.c.exe
+build all: phony 01.pointer_basics.c.exe 02.readonly_pointer.c.exe 03.pointer_values.c.exe 04.pointer_operations.c.exe 05.leftvalue_rightvalue.c.exe 06.pointer_paramater_as_return.c.exe 07.dynamic_memory.c.exe 08.function_pointer.c.exe 09.swap_values.c.exe 10.quick_sort.c.exe test.c.exe
 
 # =============================================================================
 # Built-in targets

@@ -6,5 +6,8 @@ C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-mingw/CMakeFiles/05.left
 C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-mingw/CMakeFiles/06.pointer_paramater_as_return.c.dir
 C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-mingw/CMakeFiles/07.dynamic_memory.c.dir
 C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-mingw/CMakeFiles/08.function_pointer.c.dir
+C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-mingw/CMakeFiles/09.swap_values.c.dir
+C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-mingw/CMakeFiles/10.quick_sort.c.dir
+C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-mingw/CMakeFiles/test.c.dir
 C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
 C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
