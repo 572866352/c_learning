@@ -10,7 +10,7 @@
 
 //因为即使用动态内存，变量还是会被销毁（调用时无法找到分配好的内存地址），因此用指针的指针
 void INITPOINTER(int **ptr,int lenth,int default_value) {
-//  给指针指向的指针赋值 **ptr(&players即players的地址，它的类型是一个指针的指针)——>*players——>malloc
+//  给指针指向的指针赋值 **ptr(&players即players的地址，它的类型是一个指针的指针)——>*players（malloc）
   *ptr = malloc(sizeof(int) * lenth);
   for (int i = 0; i < lenth; ++i) {
     (*ptr)[i] = default_value;

@@ -299,6 +299,43 @@ build 07.dynamic_memory.c.exe: C_EXECUTABLE_LINKER__07.2edynamic_memory.2ec_Debu
   TARGET_IMPLIB = 07.dynamic_memory.c.lib
   TARGET_PDB = 07.dynamic_memory.c.pdb
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 08.function_pointer.c
+
+
+#############################################
+# Order-only phony target for 08.function_pointer.c
+
+build cmake_object_order_depends_target_08.function_pointer.c: phony || CMakeFiles\08.function_pointer.c.dir
+
+build CMakeFiles\08.function_pointer.c.dir\08.function_pointer.c.obj: C_COMPILER__08.2efunction_pointer.2ec_Debug C$:\Users\57286\CLionProjects\Chapter7\08.function_pointer.c || cmake_object_order_depends_target_08.function_pointer.c
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd -std:c17
+  INCLUDES = -IC:\Users\57286\CLionProjects\Chapter7\include
+  OBJECT_DIR = CMakeFiles\08.function_pointer.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\08.function_pointer.c.dir
+  TARGET_COMPILE_PDB = CMakeFiles\08.function_pointer.c.dir\
+  TARGET_PDB = 08.function_pointer.c.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 08.function_pointer.c
+
+
+#############################################
+# Link the executable 08.function_pointer.c.exe
+
+build 08.function_pointer.c.exe: C_EXECUTABLE_LINKER__08.2efunction_pointer.2ec_Debug CMakeFiles\08.function_pointer.c.dir\08.function_pointer.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\08.function_pointer.c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\08.function_pointer.c.dir\
+  TARGET_FILE = 08.function_pointer.c.exe
+  TARGET_IMPLIB = 08.function_pointer.c.lib
+  TARGET_PDB = 08.function_pointer.c.pdb
+
 
 #############################################
 # Utility command for edit_cache
@@ -339,6 +376,8 @@ build 06.pointer_paramater_as_return.c: phony 06.pointer_paramater_as_return.c.e
 
 build 07.dynamic_memory.c: phony 07.dynamic_memory.c.exe
 
+build 08.function_pointer.c: phony 08.function_pointer.c.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -347,7 +386,7 @@ build 07.dynamic_memory.c: phony 07.dynamic_memory.c.exe
 #############################################
 # Folder: C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-visual-studio-64
 
-build all: phony 01.pointer_basics.c.exe 02.readonly_pointer.c.exe 03.pointer_values.c.exe 04.pointer_operations.c.exe 05.leftvalue_rightvalue.c.exe 06.pointer_paramater_as_return.c.exe 07.dynamic_memory.c.exe
+build all: phony 01.pointer_basics.c.exe 02.readonly_pointer.c.exe 03.pointer_values.c.exe 04.pointer_operations.c.exe 05.leftvalue_rightvalue.c.exe 06.pointer_paramater_as_return.c.exe 07.dynamic_memory.c.exe 08.function_pointer.c.exe
 
 # =============================================================================
 # Built-in targets

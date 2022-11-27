@@ -5,5 +5,6 @@ C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-visual-studio-64/CMakeFi
 C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-visual-studio-64/CMakeFiles/05.leftvalue_rightvalue.c.dir
 C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-visual-studio-64/CMakeFiles/06.pointer_paramater_as_return.c.dir
 C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-visual-studio-64/CMakeFiles/07.dynamic_memory.c.dir
+C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-visual-studio-64/CMakeFiles/08.function_pointer.c.dir
 C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-visual-studio-64/CMakeFiles/edit_cache.dir
 C:/Users/57286/CLionProjects/Chapter7/cmake-build-debug-visual-studio-64/CMakeFiles/rebuild_cache.dir

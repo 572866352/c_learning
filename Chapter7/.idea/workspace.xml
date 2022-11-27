@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -18,6 +18,7 @@
       <config projectName="cmake-build-debug-mingw" targetName="03.pointer_values.c" />
       <config projectName="cmake-build-debug-mingw" targetName="05.leftvalue_rightvalue.c" />
       <config projectName="cmake-build-debug-mingw" targetName="06.pointer_paramater_as_return.c" />
+      <config projectName="cmake-build-debug-mingw" targetName="08.function_pointer.c" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -27,42 +28,31 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4fe361e-be01-4225-9f1a-54013c8debb9" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compilerexplorer.settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05.leftvalue_rightvalue.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06.pointer_paramater_as_return.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07.dynamic_memory.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/codemodel-v2-e57f32fa26381cd5c3f2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/index-2022-11-26T09-09-20-0961.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/target-05.leftvalue_rightvalue.c-Debug-49765c44616588f52436.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/target-06.pointer_paramater_as_return.c-Debug-1f6d1d5f45ec9dd32a56.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/target-07.dynamic_memory.c-Debug-88f893048f77873ade8d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/06.pointer_paramater_as_return.c.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/07.dynamic_memory.c.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/06.pointer_paramater_as_return.c.dir/06.pointer_paramater_as_return.c.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/07.dynamic_memory.c.dir/07.dynamic_memory.c.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/codemodel-v2-416b54af7c4ee000ecb3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/index-2022-11-26T09-09-20-0948.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/target-05.leftvalue_rightvalue.c-Debug-402a9a4628fd71bf7f92.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/target-06.pointer_paramater_as_return.c-Debug-08422a2cbf8e402af7db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/target-07.dynamic_memory.c-Debug-e39dd950429c0f7afc35.json" afterDir="false" />
+    <list default="true" id="c4fe361e-be01-4225-9f1a-54013c8debb9" name="变更" comment="chapter7">
+      <change afterPath="$PROJECT_DIR$/08.function_pointer.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/codemodel-v2-eecb78c902e9a5525831.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/index-2022-11-26T08-13-13-0111.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07.dynamic_memory.c" beforeDir="false" afterPath="$PROJECT_DIR$/07.dynamic_memory.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/codemodel-v2-e57f32fa26381cd5c3f2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.cmake/api/v1/reply/index-2022-11-26T09-09-20-0961.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/codemodel-v2-7f85fb208d6f8b06c596.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/index-2022-11-26T08-13-13-0050.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/codemodel-v2-416b54af7c4ee000ecb3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.cmake/api/v1/reply/index-2022-11-26T09-09-20-0948.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/07.dynamic_memory.c.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/07.dynamic_memory.c.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/07.dynamic_memory.c.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/07.dynamic_memory.c.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/07.dynamic_memory.c.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/07.dynamic_memory.c.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/07.dynamic_memory.c.dir/07.dynamic_memory.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/07.dynamic_memory.c.dir/07.dynamic_memory.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/07.dynamic_memory.c.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/07.dynamic_memory.c.dir/vc140.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-visual-studio-64/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/printlnf.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/printlnf.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,34 +82,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/57286/CLionProjects/Chapter7",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "compilerexplorer"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/57286/CLionProjects/Chapter7&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;compilerexplorer&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\57286\CLionProjects\Chapter7" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 应用程序.07.dynamic_memory.c">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="CMake 应用程序.08.function_pointer.c">
     <configuration name="01.pointer_basics.c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cmake-build-debug-mingw" TARGET_NAME="01.pointer_basics.c" CONFIG_NAME="Debug-Visual Studio-64" RUN_TARGET_PROJECT_NAME="cmake-build-debug-mingw" RUN_TARGET_NAME="01.pointer_basics.c">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -155,6 +140,16 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="08.function_pointer.c" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cmake-build-debug-mingw" TARGET_NAME="08.function_pointer.c" CONFIG_NAME="Debug-Visual Studio-64" RUN_TARGET_PROJECT_NAME="cmake-build-debug-mingw" RUN_TARGET_NAME="08.function_pointer.c">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake 应用程序.01.pointer_basics.c" />
       <item itemvalue="CMake 应用程序.02.readonly_pointer.c" />
@@ -163,6 +158,7 @@
       <item itemvalue="CMake 应用程序.05.leftvalue_rightvalue.c" />
       <item itemvalue="CMake 应用程序.06.pointer_paramater_as_return.c" />
       <item itemvalue="CMake 应用程序.07.dynamic_memory.c" />
+      <item itemvalue="CMake 应用程序.08.function_pointer.c" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
@@ -173,8 +169,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669431154153</updated>
-      <workItem from="1669431155578" duration="9334000" />
+      <workItem from="1669431155578" duration="11835000" />
+      <workItem from="1669513976359" duration="2421000" />
     </task>
+    <task id="LOCAL-00001" summary="chapter7">
+      <created>1669456402946</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669456402946</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,5 +195,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chapter7" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter7" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/07.dynamic_memory.c</url>
+          <line>30</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
