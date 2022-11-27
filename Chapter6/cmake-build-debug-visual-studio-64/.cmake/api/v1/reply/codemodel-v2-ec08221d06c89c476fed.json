@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cmake-build-debug-visual-studio-64",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01.array_basic.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01.array_basic.c-Debug-5473808d75d5cc370caf.json",
+					"name" : "01.array_basic.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02.array_limit.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02.array_limit.c-Debug-1d126d82475488d24fa4.json",
+					"name" : "02.array_limit.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03.string_c.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03.string_c.c-Debug-b1a09cc3b97b53fe7238.json",
+					"name" : "03.string_c.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04.array_parameter.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04.array_parameter.c-Debug-d52b3e16c692d5a233e1.json",
+					"name" : "04.array_parameter.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05.2d_array.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05.2d_array.c-Debug-79b8a09c9dd6750c568a.json",
+					"name" : "05.2d_array.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06.shuffle_array.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06.shuffle_array.c-Debug-0b718b552e10cbab913f.json",
+					"name" : "06.shuffle_array.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07.quick_sort.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07.quick_sort.c-Debug-e6340ffdfe88ce1f6cdc.json",
+					"name" : "07.quick_sort.c",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/57286/CLionProjects/Chapter6/cmake-build-debug-visual-studio-64",
+		"source" : "C:/Users/57286/CLionProjects/Chapter6"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

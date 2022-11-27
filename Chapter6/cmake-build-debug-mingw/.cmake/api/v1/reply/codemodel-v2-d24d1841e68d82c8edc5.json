@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cmake-build-debug-mingw",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01.array_basic.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01.array_basic.c-Debug-8213427bba2f64ef9f8a.json",
+					"name" : "01.array_basic.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02.array_limit.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02.array_limit.c-Debug-52d6ac3500eb4db539ce.json",
+					"name" : "02.array_limit.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03.string_c.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03.string_c.c-Debug-470f05442e9a158cab19.json",
+					"name" : "03.string_c.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04.array_parameter.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04.array_parameter.c-Debug-ee992f557fb0c1c56257.json",
+					"name" : "04.array_parameter.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05.2d_array.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05.2d_array.c-Debug-f0174396954a6e165c76.json",
+					"name" : "05.2d_array.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06.shuffle_array.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06.shuffle_array.c-Debug-e55e95dcf3e9470d4cbd.json",
+					"name" : "06.shuffle_array.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07.quick_sort.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07.quick_sort.c-Debug-74b0dcedc2592c59687e.json",
+					"name" : "07.quick_sort.c",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/57286/CLionProjects/Chapter6/cmake-build-debug-mingw",
+		"source" : "C:/Users/57286/CLionProjects/Chapter6"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
